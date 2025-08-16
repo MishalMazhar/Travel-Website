@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Travel Explorer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">TravelExplorer</a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="policies.html">Policies</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Contact Us</h1>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Phone:</strong> +123 456 7890</p>
+      <p><strong>Email:</strong> info@travelexplorer.com</p>
+      <p><strong>Address:</strong> 123 Main Street, City</p>
+    </div>
+
+    <iframe src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Travel Explorer | info@travelexplorer.com</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
